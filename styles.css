@@ -1,0 +1,99 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: beige;
+}
+  
+body {
+    font-family: 'Roboto', 'Century Gothic';
+    font-weight: 100;
+}
+
+div {
+    height: 100%;
+    text-align: left;
+    background-size: cover;
+    text-transform: full-size-kana;
+    padding: 8rem;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    padding-top: 1.5rem;
+    align-content: center;
+    background-color: black;
+    float: right;
+}
+
+ul {
+    display: inline;
+    color: #fff
+}
+
+li {
+    display: inline;
+    padding: 1rem 1rem 0rem;
+    position: inline;
+    border: 2rem;
+    position: inline;
+    ;
+}
+
+li :hover {
+    background: beige;
+    color: black;
+    font-size: 125%;
+}
+
+a {
+    text-decoration: none;
+    width: fit-content;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+
+a:hover {
+    width: max-content;
+    color: black;
+    font-size: 125%;
+}
+
+.index {
+    padding: 1rem 1rem 0.5rem;
+}
+
+div.home {
+    background: url(bgpf.jpg) no-repeat center center;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+.head {
+    padding: 10% 4% 0%;
+    font-size: 300%;
+    font-weight: lighter;
+    line-height: 0;
+}
+
+.description {
+    font-weight: lighter;
+    padding-top: 0% 4%;
+}
+
+a.wlink {
+    color: #fff;
+    padding: 1rem;
+    width: fit-content;
+    background-color: rgb(23, 24, 24);
+}
+
+a.wlink:hover {
+    color: black ;
+    background-color: #fff ;
+}
